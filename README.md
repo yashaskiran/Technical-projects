@@ -1,9 +1,5 @@
 # Technical Projects
 
-<p align="center">
-  <img width="690" height="416" alt="Raw Aerial Harbour Baseline" src="https://github.com/user-attachments/assets/396aa8d7-985f-4d31-be64-d79f8ed4eca9" />
-</p>
-
 An advanced computer vision repository focused on aerospace defense and tactical situational awareness. This project implements core capabilities designed for edge deployment in high-stakes environments: a robust aerial Deep Learning architecture for object detection/classification, a neuromorphic event-based pipeline for high-speed counter-Unmanned Aerial Systems (c-UAS), and a comprehensive simulation framework for UAV-assisted wireless communication systems.
 
 ---
@@ -42,7 +38,11 @@ A comprehensive Python-based simulation framework designed to model Air-to-Groun
 ## 📊 Analytics & Visual Results
 
 ### Aerial OBB Perception Pipeline
-The aerial OBB perception pipeline includes a comprehensive analytics suite to validate spatial optimization, rotation tracking, and detection confidence.
+The aerial OBB perception pipeline includes a comprehensive analytics suite to validate spatial optimization, rotation tracking, and detection confidence. And the reference image used was 
+<p align="center">
+  <img width="690" height="416" alt="Raw Aerial Harbour Baseline" src="https://github.com/user-attachments/assets/396aa8d7-985f-4d31-be64-d79f8ed4eca9" />
+</p>
+
 
 **Aerial Detection Performance:**  
 The model successfully identifies tightly packed naval assets in complex harbor environments, detecting 238 distinct oriented objects with a mean confidence of 0.750.
