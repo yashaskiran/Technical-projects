@@ -80,16 +80,59 @@ Deep dive analysis into specific angular clusters (e.g., ships docked diagonally
 ---
 
 ### UAV Wireless Communication Systems
-The simulator includes a robust evaluation suite that identifies critical trade-offs between UAV altitude, physical distance, and network reliability.
+The simulator includes a robust evaluation suite that identifies critical trade-offs between UAV altitude, physical distance, and network reliability. 
+
+<p align="center">
+  <img width="600" alt="Ground User Distribution" src="image_a77032.png" />
+  <br>
+  <em>Ground User Distribution mapping 15 randomized ground nodes[cite: 17].</em>
+</p>
+
+<p align="center">
+  <img width="49%" alt="2D Circular Trajectory" src="image_a77053.png" />
+  <img width="49%" alt="3D Circular Trajectory" src="image_a77057.png" />
+  <br>
+  <em>2D and 3D trajectory generation mapping a dynamic circular flight path at 150m altitude over 120s[cite: 18, 19].</em>
+</p>
 
 **Static Altitude Optimization:**
 * **Optimal Placement:** Analysis across an altitude range of 50m to 500m identified 250m as the optimal hovering altitude for the simulated urban environment.
 * **Peak Performance:** At 250m, the system achieved a 100% coverage probability (all users > -90 dBm) and a peak average data rate of 242.24 Mbps.
 
+<p align="center">
+  <img width="800" alt="Static Altitude Optimization" src="image_a77419.png" />
+  <br>
+  <em>System performance evaluation demonstrating the impact of altitude on Received Signal Strength (RSS), SINR, Data Rate, and Coverage Probability[cite: 20].</em>
+</p>
+
+<p align="center">
+  <img width="800" alt="Path Loss vs Distance" src="image_a776fc.png" />
+  <br>
+  <em>Path Loss mapping vs. 3D and Horizontal Distance highlighting the severe attenuation penalties of NLOS propagation[cite: 23].</em>
+</p>
+
+<p align="center">
+  <img width="800" alt="Coverage Heatmaps" src="image_a77437.jpg" />
+  <br>
+  <em>High-resolution spatial heatmaps plotting the continuous distribution of RSS, SINR, Data Rate, and LOS Probability across the coverage grid[cite: 21].</em>
+</p>
+
 **Dynamic Flight Performance (Circular Trajectory):**
 * **Network Reliability:** While navigating the coverage zone at 15 m/s, the drone maintained exceptional network stability with a 99.72% connectivity uptime (only 0.28% outage time).
 * **Throughput Delivery:** The moving UAV sustained an average data rate of 176.14 Mbps per user across the network.
 * **Signal Integrity:** Maintained an average Received Signal Strength of -67.60 dBm and a strong average SINR of 26.39 dB throughout the 120-second flight duration.
+
+<p align="center">
+  <img width="800" alt="Dynamic Flight Performance" src="image_a77454.jpg" />
+  <br>
+  <em>Time-series telemetry tracking real-time fluctuations in RSS, SINR, Data Rate, and user distance as the UAV executes its flight path[cite: 22].</em>
+</p>
+
+<p align="center">
+  <img width="1000" alt="Dynamic Coverage Map" src="image_a77702.jpg" />
+  <br>
+  <em>Time-lapse progression of the dynamic RSS coverage map sweeping across the ground nodes[cite: 24].</em>
+</p>
 
 ---
 
