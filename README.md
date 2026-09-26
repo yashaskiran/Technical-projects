@@ -133,6 +133,9 @@ The simulator includes a robust evaluation suite that identifies critical trade-
 ### Event-Based Vision Pipeline
 The system includes a built-in telemetry and visualization suite to monitor event density, time-surface rendering, and clustering accuracy over time.
 
+<img width="1489" height="798" alt="image" src="https://github.com/user-attachments/assets/37c2896a-934e-461c-a960-8e54d080711f" />
+
+
 **Live Pipeline Summary:**  
 The pipeline successfully resolves high-speed motion, transitioning from raw ON/OFF polarity events to continuous, exponentially decayed Time Surfaces. By t=500.0 ms, the clustering algorithm successfully isolates dynamic shapes, applying tight spatial bounding boxes around individual geometries despite asynchronous data.
 
